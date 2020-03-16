@@ -24,6 +24,7 @@ public class ClientImplTest {
     public void constructorBlankTest2() {
         try {
             Client testClient = new ClientImpl(2, "John", "", "000");
+            fail("Yeah nah didn't work");
         } catch (IllegalArgumentException e) {
         }
     }
