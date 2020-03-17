@@ -25,7 +25,11 @@ public class ClientImplTest {
     public void constructorBlankTest2() {
         try {
             Client testClient = new ClientImpl(2, "John", "", "000");
+<<<<<<< HEAD
             fail("Exception not thrown");
+=======
+            fail("Yeah nah didn't work");
+>>>>>>> 69ac3231f64b11e74b786c5e9c0f10cec72e7c16
         } catch (IllegalArgumentException e) {
         }
     }
@@ -153,6 +157,7 @@ public class ClientImplTest {
         Client testClient = new ClientImpl(2, "Jeffrey", "Lai", "123");
         assertFalse(testClient.isAssigned());
     }
+<<<<<<< HEAD
 
     @Test
     public void isAssignedTest2() {
@@ -224,3 +229,6 @@ public class ClientImplTest {
         assertEquals(phoneNumber, testClient.getPhoneNumber());
     }
 }
+=======
+}
+>>>>>>> 69ac3231f64b11e74b786c5e9c0f10cec72e7c16
