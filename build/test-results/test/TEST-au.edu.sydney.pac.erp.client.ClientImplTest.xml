@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="au.edu.sydney.pac.erp.client.ClientImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-15T15:23:13" hostname="DESKTOP-23IEG76" time="0.001">
+<testsuite name="au.edu.sydney.pac.erp.client.ClientImplTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2020-03-17T12:57:09" hostname="DESKTOP-23IEG76" time="0.008">
   <properties/>
-  <testcase name="isAssignedTest" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.001"/>
+  <testcase name="getPhoneNumberBigTest" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.003"/>
+  <testcase name="getFirstNameTest" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="constructorNegativeID" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.001"/>
+  <testcase name="constructorNullTest1" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="constructorNullTest2" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="constructorNullTest3" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="getIDBigTest" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="getPhoneNumberTest" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="getDepartmentCodeTest1" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="constructorBigID" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="constructorMaxID" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="getDepartmentCodeNullTest" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="getIDMaxTest" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="getIDTest" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.001"/>
+  <testcase name="assignedDepartmentNullTest" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="assignedDepartmentEmptyStringTest" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="assignedDepartmentTest2" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="isAssignedTest1" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="isAssignedTest2" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="constructorInvalidPhone" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="getLastNameTest" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="constructorBlankTest1" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.001"/>
+  <testcase name="constructorBlankTest2" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="constructorBlankTest3" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="constructorBlankTest4" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
+  <testcase name="constructorZeroID" classname="au.edu.sydney.pac.erp.client.ClientImplTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
